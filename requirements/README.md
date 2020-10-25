@@ -30,7 +30,7 @@ make env
 You will need to activate this virtual environment every time you launch a new terminal using
 
 ```
-conda activate cs187
+conda activate 236299
 ```
 
 Alternatively, you can add it to your `$HOME/.bashrc` file to automatically activate it.
