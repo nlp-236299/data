@@ -1,6 +1,6 @@
 # Machine Setup
 
-This class is focused on in-class collaborative labs and a sequence of problem sets, so it is important that you setup environments properly before lab classes start. 
+This class is focused on in-class collaborative labs and a sequence of problem sets, so it is important that you setup environments properly before lab classes start (Sep 10). 
 
 Throughout this readme file, we assume that the working directory is `requirements`.
 
@@ -19,7 +19,7 @@ If you have anaconda installed (type `which conda` in a terminal and see if you 
 make requisites
 ```
 
-After installing `conda` using the above command, we need to create a virtual environment named `236299`:
+After installing `conda` using the above command, we need to create a virtual environment named `cs187`:
 
 ```
 make env
@@ -30,7 +30,7 @@ make env
 You will need to activate this virtual environment every time you launch a new terminal using
 
 ```
-conda activate 236299
+conda activate cs187
 ```
 
 Alternatively, you can add it to your `$HOME/.bashrc` file to automatically activate it.
