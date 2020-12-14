@@ -19,7 +19,7 @@ Throughout this course, we will use `Python 3.8.3`. To not mess up with your oth
 make requisites
 ```
 
-After installing `pyenv` and `virtualenv` using the above command, we need to create a virtual environment named `cs187`:
+After installing `pyenv` and `virtualenv` using the above command, we need to create a virtual environment named `236299`:
 
 ```
 make env
@@ -30,7 +30,7 @@ make env
 You will need to activate this virtual environment every time you launch a new terminal using
 
 ```
-pyenv activate cs187
+pyenv activate 236299
 ```
 
 Alternatively, you can add it to your `$HOME/.bashrc` file to automatically activate it.

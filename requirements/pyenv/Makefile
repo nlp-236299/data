@@ -24,8 +24,8 @@ Linux:
 env:
 	( \
 	   pyenv install -s 3.8.3; \
-	   pyenv virtualenv -f 3.8.3 cs187; \
+	   pyenv virtualenv -f 3.8.3 236299; \
 	   eval "$$(pyenv init -)"; \
 	   eval "$$(pyenv virtualenv-init -)"; \
-	   pyenv activate cs187; \
+	   pyenv activate 236299; \
     )

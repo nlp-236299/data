@@ -19,7 +19,7 @@ If you have anaconda installed (type `which conda` in a terminal and see if you 
 make requisites
 ```
 
-After installing `conda` using the above command, we need to create a virtual environment named `cs187`:
+After installing `conda` using the above command, we need to create a virtual environment named `236299`:
 
 ```
 make env
@@ -30,7 +30,7 @@ make env
 You will need to activate this virtual environment every time you launch a new terminal using
 
 ```
-conda activate cs187
+conda activate 236299
 ```
 
 Alternatively, you can add it to your `$HOME/.bashrc` file to automatically activate it.
