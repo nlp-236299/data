@@ -1,2 +1,2 @@
 # Data
-Public repository of data used in course 236299.
+Public repository of data used in the Technion NLP course 236299
