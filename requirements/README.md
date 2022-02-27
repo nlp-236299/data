@@ -1,6 +1,6 @@
 # Machine Setup
 
-This class is focused on in-class collaborative labs and a sequence of problem sets, so it is important that you setup environments properly before lab classes start (Sep 10). 
+This class is focused on in-class collaborative labs and a sequence of problem sets, so it is important that you setup environments properly.
 
 Throughout this readme file, we assume that the working directory is `requirements`.
 
@@ -14,6 +14,8 @@ Alternatively, you can also use [Google Colab](https://colab.research.google.com
 ## Prerequisites
 
 If you have anaconda installed (type `which conda` in a terminal and see if you got any output), please skip this part. Throughout this course, we will use `Python 3.8`. To not mess up with your other Python environments, we will create a virtual environment for this course. In our provided Makefile, we use `conda` for managing virtual environments. Alternatively, you can use `pyenv` and `virtualenv` instead by following instructions in [pyenv](pyenv/).
+
+If you are using a Mac and have not installed `brew` before, you need to install it first using `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`.
 
 ```
 make requisites

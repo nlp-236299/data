@@ -1,5 +1,5 @@
 ### Sample grammar for ATIS queries
-### 236299
+### CS187
 
 ## This grammar is intended to cover ATIS flight ID queries only. It
 ## assumes that such queries are a single noun phrase, perhaps
@@ -182,7 +182,7 @@ NP_DATE -> TERM_WEEKDAY
         | 'a' TERM_WEEKDAY
         | 'this' TERM_WEEKDAY
         | 'this' 'coming'
-        | TERM_WEEKDAY ADJ_TIME
+        | TERM_WEEKDAY ADJTIME
         | NP_MDYDATE
         | 'saturdays'
         | 'sundays'
