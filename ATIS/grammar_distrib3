@@ -182,7 +182,7 @@ NP_DATE -> TERM_WEEKDAY
         | 'a' TERM_WEEKDAY
         | 'this' TERM_WEEKDAY
         | 'this' 'coming'
-        | TERM_WEEKDAY ADJTIME
+        | TERM_WEEKDAY ADJ_TIME
         | NP_MDYDATE
         | 'saturdays'
         | 'sundays'
